@@ -1,0 +1,66 @@
+#leg{
+    color: blue;
+    font-family: cursive;
+    text-align: center;
+
+}
+#for{
+    text-align: center;
+    color:darkred
+}
+
+input{
+    color: red;
+}
+
+.h2{
+text-align: Center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.tabla input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+
+}
+#tabla{
+    border: 5px solid black;
+
+}
+
+#tablan{
+    border: 5px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    text-align: center;
+}
+td{
+    border: 5px solid black;
+    text-align: center;
+}
+body{
+    background-color: pink;
+
+}
+
+#h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#table1{
+    border: 5px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    text-align: center;
+}
+td{
+    border: 5px solid black;
+    text-align: center;
+}
+body{
+    background-color: pink;
+}
+.g2{
+    text-align: center;
+}

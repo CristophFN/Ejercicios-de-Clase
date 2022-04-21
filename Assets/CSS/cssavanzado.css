@@ -1,0 +1,50 @@
+body{
+    background-color: cornsilk;
+    height: 100%;
+}
+
+
+/*Esto es para que se vea como una cuadricula, con el tamaño total de la pantalla*/
+/*display: inline-grid; Esto es para que se vea como una cuadricula, con el tamaño total de la pantalla PERO definido por nosotros*/
+
+
+.grid{
+    display: grid;
+    
+    grid-template-areas: "header"
+                         "content sidebar"
+                         "footer" ;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(4, 110px);
+    grid-gap: 20px;
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+.header{
+    background-color: rgb(136, 197, 38);
+    grid-column: 1/5;
+    border-radius: 7px;
+}
+
+.content{
+    background-color: peru;
+    grid-column: 1/4;
+    border-radius: 7px;
+}
+
+.footer{
+    background-color: lime;
+    grid-column: 1/5;
+    border-radius: 7px;
+}
+
+.sidebar{
+    background-color: lightgrey;
+    border-radius: 7px;
+}
+.imagen{
+    background-color: lightgreen;
+    border-radius: 7px;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, inital-sacle=0.1">
+    <title> Formulario, tablas y anclajes</title>
+    <link rel="stylesheet" href="/Ejercicios de clase/Assets/CSS/htmlavanzado.css">
+    </head>
+    <body>
+        <a href="#formulario"><button>Mi primer formulario</button></a>
+        <a href="#primer"><button>Aqui empieza el tema de las tablas</button></a>
+        <a href="#final"><button>Tabla Ejemplo periodico</button></a>
+        <a href="#final">Tabla Ejemplo periodico</a>
+
+
+
+    <!--FORMULARIO; sirve para recopilar informacion de nuestros usuarios.
+    
+    ATRIBUTOS IMPORTANTES; 
+        -action: es donde se va a enviar la informacion.
+        -method: es el metodo de envio de la informacion-->
+
+
+        <!--Cuando trabajamos con botones dentro de los formularios debemos usar input del tipo boton, si trabajamos con botones fuera de el usamos la etiqueta boton.-->
+    <h2 class="h2" id="formulario">Este es mi formulario</h2>
+<div class="tabla">
+    
+    <legend id="leg">Este es mi primer formulario</legend>
+        <form id="for" action="datosf.html"> <!--Ruta o link donde van a llegar los datos-->
+            <label>Este es un boton simple</label>
+            <input type="button"> <!--Este es un boton-->
+            <br>
+            <br>
+            <input type="checkbox"> <!--Este es un checkbox-->
+            <br>
+            <br>
+            <label>Selecciona una feha de reservación</label>
+            <input type="date"> <!--Este es una fecha-->
+            <br>
+            <br>
+            <label>Introduce tu correo electronico.</label>
+            <input type="email" placeholder="ejemplo@correo.com"> <!--ESte es un email-->
+            <br>
+            <br>
+            <input type="text"> <!--Este es un texto-->
+            <br>
+            <br>
+            <label>Comentarios, quejas o sugerencias.</label>
+            <textarea placeholder="Quejas, dudas y sugerencias"></textarea>
+            <br>
+            <br>
+            <input type="password"> <!--Este es una contraseña-->
+            <br>
+            <br>
+            <input type="number"> <!--Este es un numero-->
+            <br>
+            <br>
+            <input type="file"> <!--Este es para enviar documentos-->
+            <br>
+            <br>
+            <input type="radio"> <!--Este es un radio-->
+            <input type="radio"> <!--Este es un radio-->
+            <input type="radio"> <!--Este es un radio-->
+            <br>
+            <br>
+            <label>Selecciona tu rango de felicidad</label>
+            <input type="range"> <!--Este es un rango-->
+            <br>
+            <br>
+            <label>Introduce tu telefono*</label>
+            <input type="tel" placeholder="##-##-##-##-##" required> <!--Este es un telefono-->
+            <br>
+            <br>
+            <input type="time" name="name"> <!--Este es una hora-->
+            <br>
+            <br>
+            <input type="reset"> <!--Este es un boton de reseteo-->
+            <br>
+            <br>
+            <input type="submit"> <!--Este es un boton de envio-->
+            <br>
+            <br>
+            <label>Tortas</label>
+            <input type="checkbox" value="Tortas">
+            <br>
+            <br>
+            <label>Ensalada</label>
+            <input type="checkbox" value="Ensalada">
+            <br>
+            <br>
+            <label>Chilaquiles</label>
+            <input type="checkbox" value="Chilaquiles">
+
+            <p>los campos con (*) son obligatorios</p>
+            
+        </form>
+    
+</div>
+<div class="g2">
+<h1 id="primer"> Aqui empieza el tema de las tablas </h1>
+
+<table id="tabla" align="center">
+    <h3> Esta es mi primer tabla</h3>
+    <th>Gastos del 2020</th> <!--Esta es una celda de titulo-->
+    <th>Gastos del 2021</th>
+    <th>Gastos del 2022</th>
+
+    <tr> <!--Abro mi etiqueta para iniciar mi fila 1-->
+        <td>Enero</td> <!--Esta es una celda-->
+        <td>Febrero</td>
+        <td>Marzo</td>
+        <td>Abril</td>
+    </tr>
+    <tr> <!--Abro mi etiqueta para iniciar mi fila 1-->
+        <td>$400</td> <!--Esta es una celda-->
+        <td>$500</td>
+        <td>$600</td>
+        <td>$700</td>
+    </tr>
+</table>
+
+
+<h1 align="center">Maquetado de pagina web con una tabla.</h1>
+
+<table id="tablan" align="center">
+    <tr>
+        <td colspan="3">NavBar</td>
+    </tr>
+    <tr>
+        <td>Texto</td>
+        <td>Texto 2</td>
+        <td>Imagen1</td>
+    </tr>
+    
+    <tr>
+        <td colspan="3">footer</td>
+    </tr>
+
+</table>
+
+<h3 id="final">Aqui te trae el link</h3>
+    <h3 id="h3" i>Tabla Ejemplo periodico</h3>
+        <div class="centro">
+<table id="table1" cellspacing="3" cellpadding="3" align="center">
+<tr>
+    <td colspan="5">Barra de Navegación. </td>
+</tr>
+<tr>
+    <td colspan="2" rowspan="3">Texto 1</td>
+    <td rowspan="3">Texto 2</td>
+    <td colspan="2">Texto 3</td>
+</tr>
+<tr>
+    <td colspan="2"> Texto 4</td>
+</tr>
+<tr>
+    <td colspan="2"> Texto 5</td>
+</tr>
+<tr>
+    <td>Imagen 1</td>
+    <td>Imagen 2</td>
+    <td>Imagen 3</td>
+    <td>Imagen 4</td>
+    <td>Imagen 5</td>
+</tr>
+
+<tr>
+        <td colspan="3">footer</td>
+        <td colspan="2">footer</td>
+</tr>
+</table>
+        </div>
+</div>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5S0FeFd4RUhTzHtAYlUzGY?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
+
+
+    </body>
+    </html>

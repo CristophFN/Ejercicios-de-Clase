@@ -1,0 +1,44 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.cajaflotante{
+    margin: 40px 30px 0px 30px; /*Margen Para Toda la caja*/ /*Arriba, Izquierda, Abajo, Drecha*/
+    background-color: aqua;
+border-style: solid;
+border-width: 1px;
+border-color: lightgrey;
+border-radius: 5px;
+border-top: solid 0px;
+}
+
+.contenido{
+    padding: 10px;
+    border-bottom: solid 1px lightgrey;
+}
+
+.cabecera{
+    padding: 10px;
+    border-bottom: solid 2px lightgrey;
+}
+
+.botones{
+    padding: 10px;
+     border-top: 2px lightgrey;
+}
+
+#botonaceptar{
+    background-color: cornflowerblue;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    padding: 5px
+}
+
+#botoncancelar{
+    background-color: darkgrey;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    padding: 5px
+}
