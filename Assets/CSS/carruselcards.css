@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.card { 
+    margin: 0 auto;
+}
+
+.carousel-indicators li {
+    background-color: #000;
+}
+.carousel-indicators {
+    margin-bottom: -5%;
+}
